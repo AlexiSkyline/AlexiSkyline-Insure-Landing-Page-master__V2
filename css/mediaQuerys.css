@@ -1,0 +1,95 @@
+@import url( ./style.css );
+
+/* Todo: Media query - Header Section */
+
+@media ( max-width: 830px ) {
+    
+    .container__navbar {
+        height: 15vh !important;
+        justify-content: center !important;
+    }
+}
+@media ( max-width: 680px ) {
+    .container__img img{
+        margin-top: 20px;
+    }
+    .container__img {
+        display: flex;
+        justify-content: center;
+    }
+    .menu ul {
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        padding: 0;
+    }
+    .menu__item {
+        margin: 10px;
+    }
+    .container__navbar {
+        display: contents !important;
+    }
+
+}
+
+@media ( max-width: 450px ) {
+    .header {
+        margin: 0;
+        padding: 0;
+        height: 12vh;
+    }
+    .container__menu {
+        display: none !important;
+    }
+    .container__navbar {
+        display: flex !important;
+        height: 10vh !important;
+        justify-content: space-between !important;
+    }
+    .icon_hamburger {
+        display: block !important;
+        background-image: url( ../images/icon-hamburger.svg );
+        height: 40px;
+        width: 40px;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+    }
+    .icon_hamburger.active {
+        background-image: url( ../images/icon-close.svg );
+    }
+    .container__menu.active{
+        display: block !important;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: 80%;
+        background-color: var( --Very-Dark-Violet );
+    }
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu__item {
+        padding-top: 20px;
+        width: 90%;
+        text-align: center;
+    }
+    .menu__item a{
+        color: var( --Very-Light-Gray ) !important;
+        font-size: 17px !important;
+    }
+    .last a {
+        border: 1px solid var( --Very-Light-Gray )!important;
+        padding: 10px 90px !important;
+    }
+    .svg_foot {
+        display: inline-block !important;
+        background-image: url( ../images/bg-pattern-mobile-nav.svg );
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 220px;
+        position: absolute;
+        bottom: 0;
+    }
+}

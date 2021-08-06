@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+@import url( ./mediaQuerys.css );
+:root {
+                /* Colors */
+    /*Primary */
+    --Dark-Violet: hsl( 256, 26%, 20% );
+    --Grayish-Blue: hsl( 216, 30%, 68% );
+    /* Neutral */
+    --Very-Dark-Violet: hsl( 270, 9%, 17% );
+    --Dark-Grayish-Violet: hsl( 273, 4%, 51% );
+    --Very-Light-Gray: hsl( 0, 0%, 98% );
+
+             /* Typography */
+    --Font-Headings: 'DM Serif Display', serif;
+    --Font-Body: 'Karla', sans-serif;
+
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var( --Font-Body );
+    font-size: 16px;
+}
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+img {
+    max-width: 100%;
+}
+/* Todo: Header Section */
+.container {
+    max-width: 80%; 
+    margin: auto;
+    overflow: hidden;
+}
+.container__navbar {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.icon_hamburger {
+    display: none;
+}
+.menu ul {
+    display: flex;
+}
+.svg_foot {
+    display: none;
+}
+.menu__item {
+    list-style: none;
+    align-content: center;
+}
+.menu__item a{
+    text-decoration: none;
+    color: var( --Dark-Grayish-Violet );
+    font-size: .9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+}
+.menu__item a:hover {
+    color: var( --Dark-Violet );
+}
+.last a {
+    color: var( --Dark-Violet );
+    border: 1px solid var( --Dark-Violet );
+    padding: 10px 30px;
+}
+.last:hover a {
+    background-color: var( --Dark-Violet );
+    color: var( --Very-Light-Gray );
+}
