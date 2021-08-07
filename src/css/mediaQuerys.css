@@ -1,4 +1,3 @@
-@import url( ./style.css );
 
 /* Todo: Media query - Header Section */
 
@@ -47,14 +46,14 @@
     }
     .icon_hamburger {
         display: block !important;
-        background-image: url( ../images/icon-hamburger.svg );
+        background-image: url( ../assets/icon-hamburger.svg );
         height: 40px;
         width: 40px;
         background-repeat: no-repeat;
         margin-top: 20px;
     }
     .icon_hamburger.active {
-        background-image: url( ../images/icon-close.svg );
+        background-image: url( ../assets/icon-close.svg );
     }
     .container__menu.active{
         display: block !important;
@@ -87,7 +86,7 @@
     }
     .svg_foot {
         display: inline-block !important;
-        background-image: url( ../images/bg-pattern-mobile-nav.svg );
+        background-image: url( ../assets/bg-pattern-mobile-nav.svg );
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
@@ -150,7 +149,7 @@
         margin-bottom: 100px;
     }
     .principal-img {
-        background-image: url( ../images/image-intro-mobile.jpg ) !important;
+        background-image: url( ../assets/image-intro-mobile.jpg ) !important;
         background-size: cover !important;
         width: 100% !important;
         height: 112% !important;
@@ -164,14 +163,14 @@
     }
     .svg-left {
         display: block;
-        background-image: url( ../images/bg-pattern-intro-left-mobile.svg ) !important;
+        background-image: url( ../assets/bg-pattern-intro-left-mobile.svg ) !important;
         background-repeat: no-repeat;
         width: 100%;
         height: 190px;
         margin: 0;
     }
     .svg-left-foot {
-        background-image: url( ../images/bg-pattern-intro-right-mobile.svg )!important;
+        background-image: url( ../assets/bg-pattern-intro-right-mobile.svg )!important;
         background-repeat: no-repeat;
         background-position: right;
         top: 760px !important;
@@ -244,7 +243,7 @@
         text-align: center;
     }
     .find-more-svg {
-        background-image: url( ../images/bg-pattern-how-we-work-mobile.svg ) !important;
+        background-image: url( ../assets/bg-pattern-how-we-work-mobile.svg ) !important;
         background-size: 40% 100% !important; 
         width: 100% !important;
     }
@@ -260,7 +259,7 @@
         text-align: center;
     }
     .footer-svg {
-        background-image: url( ../images/bg-pattern-footer-mobile.svg ) !important;
+        background-image: url( ../assets/bg-pattern-footer-mobile.svg ) !important;
         background-size: 100% 100% !important;
         width: 100% !important;
     }
