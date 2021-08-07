@@ -183,3 +183,30 @@
         right: 0;
     }
 }
+
+/* Todo: Media query -Were Direfent Section */
+
+@media ( max-width: 450px) {
+    .were__diferent {
+        margin-top: 100px !important;
+    }
+    .were--titulo::before {
+        margin: 0 auto  40px auto!important;
+        
+    }
+    .were__content {
+        text-align: center !important;
+        grid-template-columns: repeat( auto-fit, minmax( 250px, 1fr ) ) !important;
+    }
+    .about__text--title {
+        font-size: 25px !important;
+    }
+    .were--titulo {
+        font-size: 40px !important;
+        text-align: center !important;
+    }
+    .about__text {
+        padding-right: 0px!important;
+    }
+}
+

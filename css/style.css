@@ -170,3 +170,39 @@ img {
     margin: 0;
     right: 0;
 }
+
+/* Todo: Were-Diferrent Section  */
+.were__diferent {
+    margin-top: 270px;
+    color: var( --Very-Dark-Violet );
+    font-family: var( --Font-Headings );
+}
+.were__content {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax( 350px, 1fr ) );
+}
+.were--titulo::before {
+    content: ' ';
+    display: block;
+    background-color: var( --Dark-Grayish-Violet );
+    width: 150px;
+    height: 1px;
+    margin-bottom: 50px;
+}
+.were--titulo {
+    font-size: 55px;
+    font-weight: 400;
+}
+.about__text {
+    padding-right: 30px;
+    font-weight: 100;
+}
+.about__text--title {
+    font-size: 30px;
+    font-weight: 100;
+}
+.about__text--paragraph{
+    font-family: var( --Font-Body );
+    color: var( --Dark-Grayish-Violet );
+}
+
