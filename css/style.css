@@ -206,3 +206,40 @@ img {
     color: var( --Dark-Grayish-Violet );
 }
 
+/* Todo: Find More Section */
+.find__more {
+    margin-top: 60px;
+    background-color: var( --Dark-Violet );
+    padding: 0 60px;
+    position: relative;
+}
+.find__more--content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.find__more--title{
+    grid-column: 1;
+    font-size: 45px;
+    font-weight: 100;
+    font-family: var( --Font-Headings );
+}
+.find__more--items {
+    grid-column: 2;
+    z-index: 1;
+}
+.find-more-svg{
+    display: block;
+    background-image: url( ../images/bg-pattern-how-we-work-desktop.svg );
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    right: 0;
+}

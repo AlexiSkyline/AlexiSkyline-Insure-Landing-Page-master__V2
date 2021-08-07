@@ -210,3 +210,45 @@
     }
 }
 
+/* Todo: Find More Section */
+@media ( max-width: 880px ) {
+   
+    .find__more--title {
+        font-size: 40px !important;
+    }
+    .find__more--items {
+        margin-bottom: 40px;
+    }
+    .find-more-svg {
+        width: 60% !important;
+    }
+}
+@media ( max-width: 650px ) {
+    .find__more--title {
+        font-size: 30px !important;
+        grid-row: 1 !important;
+    }
+    .find__more--items {
+        grid-row: 2 !important;
+    }
+}
+@media ( max-width: 450px) {
+    
+    .find__more--title {
+        font-size: 25px !important;
+        text-align: center;
+    }
+    .find__more--items {
+        align-self: center !important;
+        width: 100%;
+        text-align: center;
+    }
+    .find-more-svg {
+        background-image: url( ../images/bg-pattern-how-we-work-mobile.svg ) !important;
+        background-size: 40% 100% !important; 
+        width: 100% !important;
+    }
+    .find__more .button {
+        font-size: 13px;
+    }
+}
