@@ -252,3 +252,29 @@
         font-size: 13px;
     }
 }
+
+
+/* Todo: Footer Section */
+@media ( max-width: 390px ) {
+    .categories {
+        text-align: center;
+    }
+    .footer-svg {
+        background-image: url( ../images/bg-pattern-footer-mobile.svg ) !important;
+        background-size: 100% 100% !important;
+        width: 100% !important;
+    }
+    .footer__head {
+        flex-direction: column !important;
+        height: 60px !important;
+        align-items: center;
+    }
+    .footer__logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px !important;
+    }
+    .footer__social-network .item__social-network {
+        position: relative !important;
+    }
+}
